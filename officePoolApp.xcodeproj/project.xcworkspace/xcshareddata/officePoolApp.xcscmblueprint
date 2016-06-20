@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F4498CF0FC1DD4A5F82CC0512C6196032140E49E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D57A1BF21A03A3E5973BDE39A32FFAEA5EB8BE14" : 0,
+    "0A0D3379D2FA61519EFEED6333127003CFC60050" : 0,
+    "F4498CF0FC1DD4A5F82CC0512C6196032140E49E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C3C4E3A9-0371-4B59-9F37-5E8FC9CE26DF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D57A1BF21A03A3E5973BDE39A32FFAEA5EB8BE14" : "bomb-timer\/",
+    "0A0D3379D2FA61519EFEED6333127003CFC60050" : "myPersonalTrainer\/",
+    "F4498CF0FC1DD4A5F82CC0512C6196032140E49E" : "officePoolApp\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "officePoolApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "officePoolApp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ktgriffiSFU\/myPersonalTrainer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0A0D3379D2FA61519EFEED6333127003CFC60050"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/sdevaz\/bomb-timer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D57A1BF21A03A3E5973BDE39A32FFAEA5EB8BE14"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ktgriffiSFU\/officePoolApp",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F4498CF0FC1DD4A5F82CC0512C6196032140E49E"
+    }
+  ]
+}

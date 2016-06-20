@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2706E0F91D13CC690032C8EF /* SearchButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 2706E0F81D13CC690032C8EF /* SearchButtonPressed.png */; };
+		276335651D14F5450090444A /* FakeHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 276335621D14F5450090444A /* FakeHUD.m */; };
+		276335661D14F5450090444A /* FakeHUD.png in Resources */ = {isa = PBXBuildFile; fileRef = 276335631D14F5450090444A /* FakeHUD.png */; };
+		276335671D14F5450090444A /* FakeHUD.xib in Resources */ = {isa = PBXBuildFile; fileRef = 276335641D14F5450090444A /* FakeHUD.xib */; };
+		2763356C1D14F9560090444A /* UIAnimationSamples-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 276335681D14F9560090444A /* UIAnimationSamples-Info.plist */; };
+		2763356D1D14F9560090444A /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2763356B1D14F9560090444A /* UIView+Animation.m */; };
+		27ADBFB61D14058200F1E184 /* WikipediaHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 27ADBFB51D14058200F1E184 /* WikipediaHelper.m */; };
+		27E82BEA1D1394F5006F6D58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E82BE91D1394F5006F6D58 /* main.m */; };
+		27E82BED1D1394F5006F6D58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E82BEC1D1394F5006F6D58 /* AppDelegate.m */; };
+		27E82BF01D1394F5006F6D58 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E82BEF1D1394F5006F6D58 /* SearchViewController.m */; };
+		27E82BF31D1394F5006F6D58 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E82BF21D1394F5006F6D58 /* WebViewController.m */; };
+		27E82BF61D1394F5006F6D58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E82BF41D1394F5006F6D58 /* Main.storyboard */; };
+		27E82BF81D1394F5006F6D58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E82BF71D1394F5006F6D58 /* Assets.xcassets */; };
+		27E82BFB1D1394F5006F6D58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E82BF91D1394F5006F6D58 /* LaunchScreen.storyboard */; };
+		27E82C061D1394F5006F6D58 /* officePoolAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E82C051D1394F5006F6D58 /* officePoolAppTests.m */; };
+		27E82C111D1394F5006F6D58 /* officePoolAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E82C101D1394F5006F6D58 /* officePoolAppUITests.m */; };
+		27E82C201D1395B7006F6D58 /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E82C1F1D1395B7006F6D58 /* FavoritesViewController.m */; };
+		27E82C241D139A1D006F6D58 /* FavoriteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27E82C211D139A1D006F6D58 /* FavoriteCell.xib */; };
+		27E82C251D139A1D006F6D58 /* FavoriteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E82C231D139A1D006F6D58 /* FavoriteCell.m */; };
+		27E82C291D13A029006F6D58 /* SearchButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E82C271D13A029006F6D58 /* SearchButton.png */; };
+		27E82C2A1D13A029006F6D58 /* WikiHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E82C281D13A029006F6D58 /* WikiHeader.png */; };
+		27E82C2C1D13A05E006F6D58 /* wikiLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 27E82C2B1D13A05E006F6D58 /* wikiLogo.png */; };
+		787CAEF56656B15169F2B4E1 /* libPods-officePoolApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D684C3BE8BA06C27BD5AF5 /* libPods-officePoolApp.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27E82C021D1394F5006F6D58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27E82BDD1D1394F5006F6D58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27E82BE41D1394F5006F6D58;
+			remoteInfo = officePoolApp;
+		};
+		27E82C0D1D1394F5006F6D58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27E82BDD1D1394F5006F6D58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27E82BE41D1394F5006F6D58;
+			remoteInfo = officePoolApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2706E0F81D13CC690032C8EF /* SearchButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SearchButtonPressed.png; sourceTree = "<group>"; };
+		276335611D14F5450090444A /* FakeHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeHUD.h; sourceTree = "<group>"; };
+		276335621D14F5450090444A /* FakeHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FakeHUD.m; sourceTree = "<group>"; };
+		276335631D14F5450090444A /* FakeHUD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FakeHUD.png; sourceTree = "<group>"; };
+		276335641D14F5450090444A /* FakeHUD.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FakeHUD.xib; sourceTree = "<group>"; };
+		276335681D14F9560090444A /* UIAnimationSamples-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "UIAnimationSamples-Info.plist"; sourceTree = "<group>"; };
+		276335691D14F9560090444A /* UIAnimationSamples-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAnimationSamples-Prefix.pch"; sourceTree = "<group>"; };
+		2763356A1D14F9560090444A /* UIView+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Animation.h"; sourceTree = "<group>"; };
+		2763356B1D14F9560090444A /* UIView+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animation.m"; sourceTree = "<group>"; };
+		27ADBFB41D14058200F1E184 /* WikipediaHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WikipediaHelper.h; sourceTree = "<group>"; };
+		27ADBFB51D14058200F1E184 /* WikipediaHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WikipediaHelper.m; sourceTree = "<group>"; };
+		27E82BE51D1394F5006F6D58 /* officePoolApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = officePoolApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27E82BE91D1394F5006F6D58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27E82BEB1D1394F5006F6D58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		27E82BEC1D1394F5006F6D58 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		27E82BEE1D1394F5006F6D58 /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		27E82BEF1D1394F5006F6D58 /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		27E82BF11D1394F5006F6D58 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		27E82BF21D1394F5006F6D58 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		27E82BF51D1394F5006F6D58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27E82BF71D1394F5006F6D58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27E82BFA1D1394F5006F6D58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27E82BFC1D1394F5006F6D58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27E82C011D1394F5006F6D58 /* officePoolAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = officePoolAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27E82C051D1394F5006F6D58 /* officePoolAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = officePoolAppTests.m; sourceTree = "<group>"; };
+		27E82C071D1394F5006F6D58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27E82C0C1D1394F5006F6D58 /* officePoolAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = officePoolAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27E82C101D1394F5006F6D58 /* officePoolAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = officePoolAppUITests.m; sourceTree = "<group>"; };
+		27E82C121D1394F5006F6D58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27E82C1E1D1395A3006F6D58 /* FavoritesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
+		27E82C1F1D1395B7006F6D58 /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
+		27E82C211D139A1D006F6D58 /* FavoriteCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FavoriteCell.xib; path = ../../myPersonalTrainer/myPersonalTrainer/FavoriteCell.xib; sourceTree = "<group>"; };
+		27E82C221D139A1D006F6D58 /* FavoriteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FavoriteCell.h; path = ../../myPersonalTrainer/myPersonalTrainer/FavoriteCell.h; sourceTree = "<group>"; };
+		27E82C231D139A1D006F6D58 /* FavoriteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FavoriteCell.m; path = ../../myPersonalTrainer/myPersonalTrainer/FavoriteCell.m; sourceTree = "<group>"; };
+		27E82C271D13A029006F6D58 /* SearchButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SearchButton.png; path = Images/SearchButton.png; sourceTree = "<group>"; };
+		27E82C281D13A029006F6D58 /* WikiHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WikiHeader.png; path = Images/WikiHeader.png; sourceTree = "<group>"; };
+		27E82C2B1D13A05E006F6D58 /* wikiLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wikiLogo.png; path = Images/wikiLogo.png; sourceTree = "<group>"; };
+		63D684C3BE8BA06C27BD5AF5 /* libPods-officePoolApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-officePoolApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72A6FECA12B7C067CF2D061F /* Pods-officePoolApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-officePoolApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-officePoolApp/Pods-officePoolApp.debug.xcconfig"; sourceTree = "<group>"; };
+		ED4AD9569236E27C234D7F36 /* Pods-officePoolApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-officePoolApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-officePoolApp/Pods-officePoolApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27E82BE21D1394F5006F6D58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				787CAEF56656B15169F2B4E1 /* libPods-officePoolApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E82BFE1D1394F5006F6D58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E82C091D1394F5006F6D58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03B62F49F1AF8876BD0990B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63D684C3BE8BA06C27BD5AF5 /* libPods-officePoolApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27E82BDC1D1394F5006F6D58 = {
+			isa = PBXGroup;
+			children = (
+				27E82BE71D1394F5006F6D58 /* officePoolApp */,
+				27E82C041D1394F5006F6D58 /* officePoolAppTests */,
+				27E82C0F1D1394F5006F6D58 /* officePoolAppUITests */,
+				27E82BE61D1394F5006F6D58 /* Products */,
+				922666745D11B49A96FA4649 /* Pods */,
+				03B62F49F1AF8876BD0990B8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		27E82BE61D1394F5006F6D58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27E82BE51D1394F5006F6D58 /* officePoolApp.app */,
+				27E82C011D1394F5006F6D58 /* officePoolAppTests.xctest */,
+				27E82C0C1D1394F5006F6D58 /* officePoolAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27E82BE71D1394F5006F6D58 /* officePoolApp */ = {
+			isa = PBXGroup;
+			children = (
+				27E82C261D139FB1006F6D58 /* Images */,
+				27E82BEB1D1394F5006F6D58 /* AppDelegate.h */,
+				27E82C2D1D13B9F5006F6D58 /* ViewControllers */,
+				27E82BEC1D1394F5006F6D58 /* AppDelegate.m */,
+				27E82BF71D1394F5006F6D58 /* Assets.xcassets */,
+				27E82BF41D1394F5006F6D58 /* Main.storyboard */,
+				27E82BF91D1394F5006F6D58 /* LaunchScreen.storyboard */,
+				27E82BFC1D1394F5006F6D58 /* Info.plist */,
+				27E82BE81D1394F5006F6D58 /* Supporting Files */,
+			);
+			path = officePoolApp;
+			sourceTree = "<group>";
+		};
+		27E82BE81D1394F5006F6D58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27E82BE91D1394F5006F6D58 /* main.m */,
+				27E82C231D139A1D006F6D58 /* FavoriteCell.m */,
+				27E82C211D139A1D006F6D58 /* FavoriteCell.xib */,
+				27E82C221D139A1D006F6D58 /* FavoriteCell.h */,
+				27ADBFB41D14058200F1E184 /* WikipediaHelper.h */,
+				27ADBFB51D14058200F1E184 /* WikipediaHelper.m */,
+				276335611D14F5450090444A /* FakeHUD.h */,
+				276335621D14F5450090444A /* FakeHUD.m */,
+				276335631D14F5450090444A /* FakeHUD.png */,
+				276335641D14F5450090444A /* FakeHUD.xib */,
+				276335681D14F9560090444A /* UIAnimationSamples-Info.plist */,
+				276335691D14F9560090444A /* UIAnimationSamples-Prefix.pch */,
+				2763356A1D14F9560090444A /* UIView+Animation.h */,
+				2763356B1D14F9560090444A /* UIView+Animation.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27E82C041D1394F5006F6D58 /* officePoolAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				27E82C051D1394F5006F6D58 /* officePoolAppTests.m */,
+				27E82C071D1394F5006F6D58 /* Info.plist */,
+			);
+			path = officePoolAppTests;
+			sourceTree = "<group>";
+		};
+		27E82C0F1D1394F5006F6D58 /* officePoolAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				27E82C101D1394F5006F6D58 /* officePoolAppUITests.m */,
+				27E82C121D1394F5006F6D58 /* Info.plist */,
+			);
+			path = officePoolAppUITests;
+			sourceTree = "<group>";
+		};
+		27E82C261D139FB1006F6D58 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				27E82C271D13A029006F6D58 /* SearchButton.png */,
+				27E82C281D13A029006F6D58 /* WikiHeader.png */,
+				27E82C2B1D13A05E006F6D58 /* wikiLogo.png */,
+				2706E0F81D13CC690032C8EF /* SearchButtonPressed.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		27E82C2D1D13B9F5006F6D58 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				27E82BEE1D1394F5006F6D58 /* SearchViewController.h */,
+				27E82BEF1D1394F5006F6D58 /* SearchViewController.m */,
+				27E82BF11D1394F5006F6D58 /* WebViewController.h */,
+				27E82BF21D1394F5006F6D58 /* WebViewController.m */,
+				27E82C1E1D1395A3006F6D58 /* FavoritesViewController.h */,
+				27E82C1F1D1395B7006F6D58 /* FavoritesViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		922666745D11B49A96FA4649 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72A6FECA12B7C067CF2D061F /* Pods-officePoolApp.debug.xcconfig */,
+				ED4AD9569236E27C234D7F36 /* Pods-officePoolApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27E82BE41D1394F5006F6D58 /* officePoolApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27E82C151D1394F5006F6D58 /* Build configuration list for PBXNativeTarget "officePoolApp" */;
+			buildPhases = (
+				5943D1610504C58BBA363AE1 /* [CP] Check Pods Manifest.lock */,
+				27E82BE11D1394F5006F6D58 /* Sources */,
+				27E82BE21D1394F5006F6D58 /* Frameworks */,
+				27E82BE31D1394F5006F6D58 /* Resources */,
+				B475394B88F9320F184DAF3C /* [CP] Embed Pods Frameworks */,
+				B53DDCFDB4F98AA2A55A5236 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = officePoolApp;
+			productName = officePoolApp;
+			productReference = 27E82BE51D1394F5006F6D58 /* officePoolApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27E82C001D1394F5006F6D58 /* officePoolAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27E82C181D1394F5006F6D58 /* Build configuration list for PBXNativeTarget "officePoolAppTests" */;
+			buildPhases = (
+				27E82BFD1D1394F5006F6D58 /* Sources */,
+				27E82BFE1D1394F5006F6D58 /* Frameworks */,
+				27E82BFF1D1394F5006F6D58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27E82C031D1394F5006F6D58 /* PBXTargetDependency */,
+			);
+			name = officePoolAppTests;
+			productName = officePoolAppTests;
+			productReference = 27E82C011D1394F5006F6D58 /* officePoolAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27E82C0B1D1394F5006F6D58 /* officePoolAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27E82C1B1D1394F5006F6D58 /* Build configuration list for PBXNativeTarget "officePoolAppUITests" */;
+			buildPhases = (
+				27E82C081D1394F5006F6D58 /* Sources */,
+				27E82C091D1394F5006F6D58 /* Frameworks */,
+				27E82C0A1D1394F5006F6D58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27E82C0E1D1394F5006F6D58 /* PBXTargetDependency */,
+			);
+			name = officePoolAppUITests;
+			productName = officePoolAppUITests;
+			productReference = 27E82C0C1D1394F5006F6D58 /* officePoolAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27E82BDD1D1394F5006F6D58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kyle Griffith";
+				TargetAttributes = {
+					27E82BE41D1394F5006F6D58 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					27E82C001D1394F5006F6D58 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 27E82BE41D1394F5006F6D58;
+					};
+					27E82C0B1D1394F5006F6D58 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 27E82BE41D1394F5006F6D58;
+					};
+				};
+			};
+			buildConfigurationList = 27E82BE01D1394F5006F6D58 /* Build configuration list for PBXProject "officePoolApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27E82BDC1D1394F5006F6D58;
+			productRefGroup = 27E82BE61D1394F5006F6D58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27E82BE41D1394F5006F6D58 /* officePoolApp */,
+				27E82C001D1394F5006F6D58 /* officePoolAppTests */,
+				27E82C0B1D1394F5006F6D58 /* officePoolAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27E82BE31D1394F5006F6D58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E82C2A1D13A029006F6D58 /* WikiHeader.png in Resources */,
+				27E82BFB1D1394F5006F6D58 /* LaunchScreen.storyboard in Resources */,
+				2706E0F91D13CC690032C8EF /* SearchButtonPressed.png in Resources */,
+				276335661D14F5450090444A /* FakeHUD.png in Resources */,
+				276335671D14F5450090444A /* FakeHUD.xib in Resources */,
+				27E82C2C1D13A05E006F6D58 /* wikiLogo.png in Resources */,
+				2763356C1D14F9560090444A /* UIAnimationSamples-Info.plist in Resources */,
+				27E82BF81D1394F5006F6D58 /* Assets.xcassets in Resources */,
+				27E82BF61D1394F5006F6D58 /* Main.storyboard in Resources */,
+				27E82C241D139A1D006F6D58 /* FavoriteCell.xib in Resources */,
+				27E82C291D13A029006F6D58 /* SearchButton.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E82BFF1D1394F5006F6D58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E82C0A1D1394F5006F6D58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5943D1610504C58BBA363AE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B475394B88F9320F184DAF3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-officePoolApp/Pods-officePoolApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B53DDCFDB4F98AA2A55A5236 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-officePoolApp/Pods-officePoolApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27E82BE11D1394F5006F6D58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E82C201D1395B7006F6D58 /* FavoritesViewController.m in Sources */,
+				27E82BF31D1394F5006F6D58 /* WebViewController.m in Sources */,
+				27E82BED1D1394F5006F6D58 /* AppDelegate.m in Sources */,
+				2763356D1D14F9560090444A /* UIView+Animation.m in Sources */,
+				27E82C251D139A1D006F6D58 /* FavoriteCell.m in Sources */,
+				276335651D14F5450090444A /* FakeHUD.m in Sources */,
+				27E82BF01D1394F5006F6D58 /* SearchViewController.m in Sources */,
+				27ADBFB61D14058200F1E184 /* WikipediaHelper.m in Sources */,
+				27E82BEA1D1394F5006F6D58 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E82BFD1D1394F5006F6D58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E82C061D1394F5006F6D58 /* officePoolAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E82C081D1394F5006F6D58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E82C111D1394F5006F6D58 /* officePoolAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27E82C031D1394F5006F6D58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27E82BE41D1394F5006F6D58 /* officePoolApp */;
+			targetProxy = 27E82C021D1394F5006F6D58 /* PBXContainerItemProxy */;
+		};
+		27E82C0E1D1394F5006F6D58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27E82BE41D1394F5006F6D58 /* officePoolApp */;
+			targetProxy = 27E82C0D1D1394F5006F6D58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27E82BF41D1394F5006F6D58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27E82BF51D1394F5006F6D58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27E82BF91D1394F5006F6D58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27E82BFA1D1394F5006F6D58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27E82C131D1394F5006F6D58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		27E82C141D1394F5006F6D58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27E82C161D1394F5006F6D58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72A6FECA12B7C067CF2D061F /* Pods-officePoolApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = officePoolApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Griffith.officePoolApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		27E82C171D1394F5006F6D58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED4AD9569236E27C234D7F36 /* Pods-officePoolApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = officePoolApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Griffith.officePoolApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		27E82C191D1394F5006F6D58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = officePoolAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Griffith.officePoolAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/officePoolApp.app/officePoolApp";
+			};
+			name = Debug;
+		};
+		27E82C1A1D1394F5006F6D58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = officePoolAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Griffith.officePoolAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/officePoolApp.app/officePoolApp";
+			};
+			name = Release;
+		};
+		27E82C1C1D1394F5006F6D58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = officePoolAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Griffith.officePoolAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = officePoolApp;
+			};
+			name = Debug;
+		};
+		27E82C1D1D1394F5006F6D58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = officePoolAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Griffith.officePoolAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = officePoolApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27E82BE01D1394F5006F6D58 /* Build configuration list for PBXProject "officePoolApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E82C131D1394F5006F6D58 /* Debug */,
+				27E82C141D1394F5006F6D58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27E82C151D1394F5006F6D58 /* Build configuration list for PBXNativeTarget "officePoolApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E82C161D1394F5006F6D58 /* Debug */,
+				27E82C171D1394F5006F6D58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27E82C181D1394F5006F6D58 /* Build configuration list for PBXNativeTarget "officePoolAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E82C191D1394F5006F6D58 /* Debug */,
+				27E82C1A1D1394F5006F6D58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27E82C1B1D1394F5006F6D58 /* Build configuration list for PBXNativeTarget "officePoolAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E82C1C1D1394F5006F6D58 /* Debug */,
+				27E82C1D1D1394F5006F6D58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27E82BDD1D1394F5006F6D58 /* Project object */;
+}
